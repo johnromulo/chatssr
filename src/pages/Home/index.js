@@ -1,20 +1,210 @@
 import React from 'react';
-import { ChatItem } from 'react-chat-elements';
+import { MessageList } from 'react-chat-elements';
 
 import { Container } from './styles';
 
 export default function Home() {
   return (
     <Container>
-      <ChatItem
-        avatar={
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlLBQSBLF-oUWZ7t7zYVYLUNBlVfFH_-I0xd13fAAuwFdxdQho'
-        }
-        alt={'Reactjs'}
-        title={'Thanos'}
-        subtitle={'What are you doing?'}
-        date={new Date()}
-        unread={2}
+      <MessageList
+        downButton={false}
+        className="message-list"
+        lockable={false}
+        toBottomHeight={'100%'}
+        dataSource={[
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+          {
+            position: 'right',
+            type: 'text',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+            date: new Date(),
+          },
+        ]}
       />
     </Container>
   );
