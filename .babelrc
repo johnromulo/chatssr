@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "razzle/babel" // NEEDED
+    // "stage-0"
+  ],
+  "plugins": [
+    // additional plugins
+    [
+      "babel-plugin-root-import",
+      {
+        "rootPathSuffix": "src",
+        "rootPathPrefix": "~/"
+      }
+    ]
+  ]
+}
