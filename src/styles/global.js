@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import 'react-chat-elements/dist/main.css';
 
 export default createGlobalStyle`
@@ -26,7 +27,7 @@ export default createGlobalStyle`
     background: #1d2331;
   }
 
-  body, input, button {
+  body, input, textarea, button {
     font: 14px 'Roboto', sans-serif;
   }
 
